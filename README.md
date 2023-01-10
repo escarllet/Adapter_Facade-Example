@@ -4,7 +4,7 @@ Ejemplo del patron de diseño Adapter y Facade en C# .Net.
 
 Gestion de cuentas bancarias en aplicacion de escritorio y celular (simulado/fachada).
 
-## Que hace?
+## ¿Que hace?
 <ul>
 <li> Divide las funciones disponibles segun el dispositivo: escritorio (version completa) y celular (demo) </li>
 <li> Creacion y gestion de cuentas de banco segun su tipo (normal y super ahorro) </li>
@@ -14,7 +14,7 @@ Gestion de cuentas bancarias en aplicacion de escritorio y celular (simulado/fac
 </ul>
 
 
-## Cual es el problema a resolver?
+## ¿Cual es el problema a resolver?
 
 ### En primer lugar, la aplicacion se divide en dos: 
 
@@ -32,7 +32,7 @@ Cuenta de Super Ahorro - Esta cuenta se puede gestionar con normalidad pero tien
 
 <strong>¿Como puedo implementar esta funcion extra si mi clase "CuentaSuperAhorro" no es compatible con la interfaz "IAhorro"? </strong>
 
-## Como se resuelve?
+## ¿Como se resuelve?
 
 El primer problema se resuelve perfectamente implementando el patron de diseño Facade o Fachada...
 
